@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedGuide</title>
+    <link rel="icon" href="./img/icon.png">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .main_m{
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient(to bottom left, #fff 0%, #fff 55%, rgb(133, 209, 235) 45%, rgb(133, 209, 235)  100%);
+            /* background-color: aqua; */
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .mm_find_by_symptom{
+            /* background-color: yellow; */
+            width: 280px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+        }
+        .mfbsc{
+            /* background-color: rgb(154, 154, 96); */
+            width: 240px;
+            height: 240px;
+            border-radius: 50%;
+        }
+        .mfbsc img{
+            height: 240px;
+            filter: contrast(100);
+        }
+        .mfbsc_text{
+            /* background-color: rgb(95, 124, 121); */
+            height: 50px;
+            width: 100%;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .mm_contact_with_doctor{
+            /* background-color: wheat; */
+            width: 280px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            align-items: center;
+            justify-content: center;
+        }
+        .mcwdc{
+            /* background-color: rgb(154, 154, 96); */
+            width: 240px;
+            height: 240px;
+            border-radius: 50%;
+        }
+        .mcwdc img{
+            height: 240px;
+        }
+        .mcwdc_text{
+            /* background-color: rgb(95, 124, 121); */
+            /* background-color: rgb(95, 124, 121); */
+            height: 50px;
+            width: 100%;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="main_m">
+            <div class="mm_find_by_symptom">
+                <div class="mfbsc">
+                    <a href="./medicine.html" id="click"><img src="./img/istockphoto-1200712144-612x612-removebg-preview.png" alt=""></a>
+                </div>
+                <div class="mfbsc_text">
+                    Find Medicine 
+                </div>
+            </div>
+            <div class="mm_contact_with_doctor">
+                <div class="mcwdc">
+                    <a href="./doctor.html"><img src="./img/doctor-logo-lectures-logo-design-template-f345b29317b5745390c7183ce15dd54f_screen-removebg-preview.png" alt=""></a>
+                </div>
+                <div class="mcwdc_text">
+                    Contact Doctor
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

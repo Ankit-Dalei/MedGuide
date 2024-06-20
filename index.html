@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedGuide</title>
+    <link rel="icon" href="./img/icon.png">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient(to bottom right, #fff 0%, #fff 55%, rgb(133, 209, 235) 45%, rgb(133, 209, 235)  100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .header_left{
+            /* background-color: blue; */
+            height: 80vh;
+            width: 40%;
+            /* font-family:  'Arial Narrow'; */
+            line-height: 107px;
+            font-weight: lighter;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+        }
+        .header_right{
+            /* background-color: blue; */
+            height: 80vh;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header_right img{
+            /* background-color: blue; */
+            /* height: 100%; */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header_left">
+                WE GUIDE YOUR FOR YOUR BETTER HEALTH
+            </div>
+            <div class="header_right">
+                <img src="./img/doc.jpg" alt="img">
+            </div>
+        </div>
+    </header>
+    <script>
+       setTimeout(()=>{window.location.assign("./main.html");},6000)
+    </script>
+</body>
+</html>
